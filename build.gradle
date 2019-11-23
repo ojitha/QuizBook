@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'au.com.blogspot.ojitha'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('com.fasterxml.jackson.core:jackson-databind:2.9.9')
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.5.1'
+}
